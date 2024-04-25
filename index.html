@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,14 +28,13 @@
     </form>
     <hr>
     <form>
-        <input type="text" name="nome" id="nome" placeolder="Digite seu nome"><br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
         <input type="email" name="email" id="email" placeholder="usuario@site.com.br"><br>
         Deseja reclamar?
         <input type="radio" name="reclamar" value="S">Sim
         <input type="radio" name="reclamar" value="N">Não
         <br>
-        <textarea name="reclamacao" placeholder="Reclame aqui" rows="5" cols="30">
-        </textarea><br>
+        <textarea name="reclamacao" placeholder="Reclame aqui" rows="5" cols="30"></textarea><br>
         <button type="Submit">SALVAR</button>
     </form>
     <hr>
@@ -43,7 +43,7 @@
         <input type="color" name="cor" id="cor"><br>
         Data de nascimento:
         <input type="date" name="data" id="data"><br>
-        Esporte favorito:
+        Esporte favorito:<br>
         <input type="checkbox" value="fut" name="fut">Futebol<br>
         <input type="checkbox" value="vol" name="vol>">Volei<br>
         <input type="checkbox" value="bas" name="bas">Basquete<br>
@@ -55,6 +55,10 @@
             <option valeu="que livro?">QUE LIVRO?</option>
         </select>
     </form>
+    <hr>
+    <p class="texto">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa animi ab molestias eum tempore vitae quidem tempora esse incidunt similique, inventore deleniti voluptatibus, eveniet libero odio molestiae veritatis? Sint, corrupti?
+    </p>
 
 </body>
 
